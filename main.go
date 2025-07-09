@@ -21,7 +21,7 @@ func main() {
 	decodedWordList := strings.Split(string(decodedWordListBuf), "\n")
 
 	args := os.Args[1:]
-	if len(args) < 2 {
+	if len(args) < 1 {
 		printUsage()
 		os.Exit(1)
 	}
